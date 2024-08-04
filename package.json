@@ -4,6 +4,8 @@
   "description": "This is Namaste React By Pratik Vyas",
   "main": "App.js",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build inde.html",
     "test": "jest"
   },
   "repository": {
@@ -21,13 +23,14 @@
   "homepage": "https://github.com/vyas10/Namaster-React#readme",
   "devDependencies": {
     "parcel": "^2.12.0",
+    "parcel-bundler": "^1.12.5",
     "process": "^0.11.10"
   },
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
-  "browsersList":[
+  "browsersList": [
     "last 2 versions"
   ]
 }
